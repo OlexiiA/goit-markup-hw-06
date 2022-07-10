@@ -318,7 +318,7 @@ a {
   border-radius: 4px;
 }
 
-.modal-button {
+.modal-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -327,7 +327,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--main-txt-dark);
+  background-color: var(--main-txt-dark);
+  fill: var(--main-txt-light);
 
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -336,7 +337,8 @@ a {
   transition-timing-function: var(--time-allocation);
 }
 
-.modal-button:hover {
+.modal-btn:hover,
+.modal-btn:focus {
   fill: var(--accent-color);
 }
 
